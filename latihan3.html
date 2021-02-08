@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link " aria-current="page" href="index.html">Latihan 1</a>
+                <a class="nav-link active" href="latihan2.html">Latihan 2</a>
+                <a class="nav-link" href="latihan3.html">Latihan 3</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+      <div class="container">
+          <div class="row mt-5">
+              <div class="col-6">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Kalimat [Bagaimana cara memulai usaha bisnis], [Bootcamp impact byte], [Status covid hari ini]</label>
+                    <input id="kalimat" type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                </div>
+                <button onclick="findKalimat(kalimat.value)" type="submit" class="btn btn-primary">Check</button>
+              </div>
+          </div>
+      </div>
+      
+
+    <script src="latihan3.js"></script>
+    <script src="boostrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
